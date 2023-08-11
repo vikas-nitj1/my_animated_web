@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+    background-color: #dadada;
+
+}
+
+#center{
+
+    position: relative;
+    width: 70%;
+    height: 80%;
+   
+}
+
+.imagecontainer{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#one{
+    width: 0%;
+    
+}
+.text{
+    position:absolute;
+    bottom: 15%;
+    left: -15% ;
+    overflow: hidden;
+    width: 400px;
+    height: 100px;
+    z-index: 999;    
+}
+.text h1{
+    font-size: 6vw;
+    top: 100px;
+    position: absolute;
+}
